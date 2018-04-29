@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Leaf</title>
+    </head>
+    <body>
+        <h1>Welkom bij de codeermachine. </h1>
+        <table>
+            <tr>
+                <td>Invoer:</td>
+                <td>#(ongecodeerd)</td>
+            </tr>
+            <tr>
+                <td>Sleutel:</td>
+                <td>#(sleutel)</td>
+            </tr>
+            <tr>
+                <td>Uitvoer:</td>
+                <td>#(gecodeerd)</td>
+            </tr>
+    </body>
+</html>

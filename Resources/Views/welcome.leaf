@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codeer</title>
+    </head>
+    <body>
+        <h1>Geef hieronder een sleutel en een te coderen tekst in. </h1>
+        <br>
+        <form action="/coderen" method="get">
+            Sleutel:<input type="text" name="sleutel"><br>
+            Tekst:<input type="text" name="ongecodeerd"><br>
+        <input type="submit" value="codeer">
+    </body>
+</html>
