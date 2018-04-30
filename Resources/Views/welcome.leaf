@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Codeer</title>
-    </head>
-    <body>
-        <h1>Geef hieronder een sleutel en een te coderen tekst in. </h1>
-        <br>
-        <form action="/coderen" method="get">
-            Sleutel:<input type="text" name="sleutel"><br>
-            Tekst:<input type="text" name="ongecodeerd"><br>
-        <input type="submit" value="codeer">
+#embed("koptekst")
+
+<h1>Geef hieronder een sleutel en een te coderen tekst in. </h1>
+<br>
+<table>
+    <tr>
+        <td>
+            <form action="/coderen" method="get">
+                Sleutel:
+        </td>
+        <td><input type="text" name="sleutel"><br></td>
+    </tr>
+    <tr>
+        <td>
+            Tekst:
+        </td>
+        <td><input type="text" name="ongecodeerd"></td>
+    </tr>
+</table><br>
+<input type="submit" value="codeer">
     </body>
-</html>
+    </html>

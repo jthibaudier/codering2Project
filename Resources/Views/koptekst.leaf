@@ -2,13 +2,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-            <link href="stijl.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
                 <title>Codering</title>
     </head>
     <body>
+        <div id="container" align="center">
         
         <div id="kop">
-            <img src="logo.PNG" width="200" height="100">
+            <img src="/images/logo.PNG" width="200" height="100">
                 <h1>Webapplicaties: de serverkant</h1>
         </div>
         

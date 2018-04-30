@@ -1,7 +1,6 @@
 #embed("koptekst")
 
-        <h1>Welkom bij de codeermachine. </h1>
-        <table>
+        <table width="300px">
             <tr>
                 <td>Invoer:</td>
                 <td>#(ongecodeerd)</td>
@@ -14,6 +13,7 @@
                 <td>Uitvoer:</td>
                 <td>#(gecodeerd)</td>
             </tr>
+</div>
     </body>
 </html>
 
