@@ -22,10 +22,7 @@ final class CoderingController {
         
         return try req.view().render("resultaat", data)
     }
-    
-    func sleutel(_ req: Request) throws -> String {
-        return "Gaat even fout hier."
-    }
+
 }
 
 struct CoderingFilter: Content {

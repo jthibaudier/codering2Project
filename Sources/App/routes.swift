@@ -10,6 +10,7 @@ public func routes(_ router: Router) throws {
     let coderingController = CoderingController()
     router.get("coderen", use: coderingController.codeer)
     router.get("codeer", use: coderingController.toonFormulier)
+    
 }
 
 
