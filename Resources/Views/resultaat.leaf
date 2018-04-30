@@ -1,22 +1,21 @@
-#embed("koptekst")
+#set("body") {
 
-        <table width="300px">
-            <tr>
-                <td>Invoer:</td>
-                <td>#(ongecodeerd)</td>
-            </tr>
-            <tr>
-                <td>Sleutel:</td>
-                <td>#(sleutel)</td>
-            </tr>
-            <tr>
-                <td>Uitvoer:</td>
-                <td>#(gecodeerd)</td>
-            </tr>
-</div>
-    </body>
-</html>
+    <table width="300px">
+    <tr>
+        <td>Invoer:</td>
+        <td>#(ongecodeerd)</td>
+    </tr>
+    <tr>
+        <td>Sleutel:</td>
+        <td>#(sleutel)</td>
+    </tr>
+    <tr>
+        <td>Uitvoer:</td>
+        <td>#(gecodeerd)</td>
+    </tr>
+    }
+    
+    #embed("base")
 
-
-
-
+    
+    

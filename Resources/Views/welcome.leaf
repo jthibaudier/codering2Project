@@ -1,6 +1,5 @@
-#embed("koptekst")
-
-<h1>Geef hieronder een sleutel en een te coderen tekst in. </h1>
+#set("body") {
+<h2>Geef hieronder een sleutel en een te coderen tekst in. </h2>
 <br>
 <table>
     <tr>
@@ -18,5 +17,6 @@
     </tr>
 </table><br>
 <input type="submit" value="codeer">
-    </body>
-    </html>
+}
+
+#embed("base")
