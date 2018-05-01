@@ -40,9 +40,12 @@ class Codering {
         let a: Character = "a"
         let aValue = a.unicodeScalarCodePoint()
         
-        let getal = ((value - aValue) + UInt32(aantal)) % 26 + aValue
-        
-        let u = UnicodeScalar(getal)
+        var getal = (aantal % 26 + Int(value))
+        if (getal < aValue) {
+            getal = getal + 26
+        }
+                
+        let u = UnicodeScalar(UInt32(getal))
         let char = Character(u!)
         
         return char
