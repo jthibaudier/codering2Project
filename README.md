@@ -19,5 +19,5 @@
     </a>
     
     <br>
-    <p>De live versie is te vinden op <a href="https://coderingou-public.vapor.cloud/codeer">https://coderingou-public.vapor.cloud/codeer</a></p>
+    De live versie is te vinden op [https://coderingou-public.vapor.cloud/codeer](https://coderingou-public.vapor.cloud/codeer)
 </center>
