@@ -10,7 +10,7 @@ final class CoderingController {
         return try req.view().render("welcome")
     }
     
-    func codeer(_ req: Request) throws -> Future<View> {
+    func coderen(_ req: Request) throws -> Future<View> {
         let filters = try req.query.decode(CoderingFilter.self)
         print("De items: \(filters.sleutel ?? 0) en \(filters.ongecodeerd ?? "")")
         
@@ -21,6 +21,7 @@ final class CoderingController {
         let data = ["sleutel": String(sleutel), "ongecodeerd": ongecodeerd, "gecodeerd": gecodeerd]
         
         return try req.view().render("resultaat", data)
+        
     }
 
 }
