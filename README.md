@@ -17,7 +17,5 @@
     <a href="https://swift.org">
         <img src="http://img.shields.io/badge/swift-4.1-brightgreen.svg" alt="Swift 4.1">
     </a>
-    
-    <br>
-    De live versie is te vinden op [https://coderingou-public.vapor.cloud/codeer](https://coderingou-public.vapor.cloud/codeer)
+<br>De live versie is te vinden op https://coderingou-public.vapor.cloud/codeer
 </center>
